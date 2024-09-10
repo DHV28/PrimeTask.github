@@ -142,7 +142,7 @@ document.getElementById('done-button').addEventListener('click', function(event)
         // If the form is valid, save the data
         saveData(taskName, taskDescription, taskType, taskPriority, taskStoryPoint, taskProjectStage, taskTag, assigneeSelected);
         alert("Task saved successfully!");
-        window.location.href = "product_backlog.html";
+        window.location.href = "index.html";
     }
 });
 
